@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-15T06:39:38.759Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="awKskuw0zMwJ5HXJGgiz" version="21.2.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-05-15T08:29:14.363Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="6HzoBXJdu8AeNzn32vlK" version="21.2.9" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1348" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -236,7 +236,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="fb7LT-a0mifnqTWlZP_S" name="ページ3">
-    <mxGraphModel dx="921" dy="577" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1451" dy="721" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -248,11 +248,53 @@
             <mxPoint x="-185" y="115" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cpWP3OnlQnYpZnoFobzZ-3" value="Entity" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=19;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-265" y="108" width="160" height="120" as="geometry" />
+        <mxCell id="dlWtHBC8hDukLhEGXCA7-15" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.01;entryY=0.161;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="cpWP3OnlQnYpZnoFobzZ-3" target="dlWtHBC8hDukLhEGXCA7-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cpWP3OnlQnYpZnoFobzZ-4" value="+Attribute1&#xa;+Attribute2&#xa;+Attribute3" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="cpWP3OnlQnYpZnoFobzZ-3">
+        <mxCell id="cpWP3OnlQnYpZnoFobzZ-3" value="金投入" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=19;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-265" y="106" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cpWP3OnlQnYpZnoFobzZ-4" value="do/&quot;残額表示中&quot;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="cpWP3OnlQnYpZnoFobzZ-3">
           <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dlWtHBC8hDukLhEGXCA7-1" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="302" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dlWtHBC8hDukLhEGXCA7-2" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="cpWP3OnlQnYpZnoFobzZ-4" target="dlWtHBC8hDukLhEGXCA7-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dlWtHBC8hDukLhEGXCA7-3" value="返金" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=19;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-53" y="108" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dlWtHBC8hDukLhEGXCA7-4" value="do/&quot;返金額表示中&quot;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="dlWtHBC8hDukLhEGXCA7-3">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dlWtHBC8hDukLhEGXCA7-6" value="購入" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=19;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-480" y="106" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dlWtHBC8hDukLhEGXCA7-7" value="do/&quot;商品出し中&quot;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="dlWtHBC8hDukLhEGXCA7-6">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dlWtHBC8hDukLhEGXCA7-8" value="百円投入&lt;br&gt;[百円玉のみ]" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-215" y="40" width="162" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dlWtHBC8hDukLhEGXCA7-9" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="cpWP3OnlQnYpZnoFobzZ-4" target="dlWtHBC8hDukLhEGXCA7-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dlWtHBC8hDukLhEGXCA7-11" value="開始" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-265" y="25" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dlWtHBC8hDukLhEGXCA7-12" value="終了" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-269" y="302" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dlWtHBC8hDukLhEGXCA7-13" value="キャンセル&lt;br&gt;[残額あり]" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-163" y="82" width="162" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dlWtHBC8hDukLhEGXCA7-14" value="ボタンプッシュ&lt;br&gt;[残額百円以上]" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="73" width="162" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dlWtHBC8hDukLhEGXCA7-16" value="bye入力&lt;br&gt;[取引中]" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-192" y="250" width="162" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
