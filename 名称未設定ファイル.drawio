@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-04T05:23:57.183Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="senHmUkvnBgjEP7BihWl" version="21.5.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-07-04T05:50:09.273Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="wpJVfnVddRqKCXJ25oOH" version="21.5.0" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1348" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -300,10 +300,37 @@
     </mxGraphModel>
   </diagram>
   <diagram id="UhPrq_kvUliwo7LMisKU" name="ページ4">
-    <mxGraphModel dx="521" dy="520" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="921" dy="520" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="8ub0JFQEOLG5CDBNe3Uz-1" value="メッセージ管理" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="235" y="151.5" width="180" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="8ub0JFQEOLG5CDBNe3Uz-2" value="- 登録済みメッセージ:文字列" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="8ub0JFQEOLG5CDBNe3Uz-1">
+          <mxGeometry y="26" width="180" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="8ub0JFQEOLG5CDBNe3Uz-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="8ub0JFQEOLG5CDBNe3Uz-1">
+          <mxGeometry y="74" width="180" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="8ub0JFQEOLG5CDBNe3Uz-4" value="+ IFTTTに送信()&lt;br&gt;+ 登録()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="8ub0JFQEOLG5CDBNe3Uz-1">
+          <mxGeometry y="82" width="180" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="8ub0JFQEOLG5CDBNe3Uz-5" value="音声処理" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-48" y="155" width="186" height="123" as="geometry" />
+        </mxCell>
+        <mxCell id="8ub0JFQEOLG5CDBNe3Uz-12" value="　　　　　&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="8ub0JFQEOLG5CDBNe3Uz-5">
+          <mxGeometry y="26" width="186" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="8ub0JFQEOLG5CDBNe3Uz-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="8ub0JFQEOLG5CDBNe3Uz-5">
+          <mxGeometry y="57" width="186" height="9" as="geometry" />
+        </mxCell>
+        <mxCell id="8ub0JFQEOLG5CDBNe3Uz-8" value="+ 読み取り()&lt;br&gt;+ 判定()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="8ub0JFQEOLG5CDBNe3Uz-5">
+          <mxGeometry y="66" width="186" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="8ub0JFQEOLG5CDBNe3Uz-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="138" y="213" width="97" height="8" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
